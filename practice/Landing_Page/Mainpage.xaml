@@ -1,0 +1,69 @@
+﻿<Window x:Class="practice.Landing_Page.Mainpage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:practice.Landing_Page"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="900" Width="1200"
+        >
+    <!--ResizeMode="NoResize"-->
+    <Grid Background='#FF051821' Height="900" Width="1200">
+
+        <!--DEFINE GRID COLUMNS-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300" MaxWidth="300"/>
+            <ColumnDefinition Width="900*" MaxWidth="900"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- CHILD OF GRID-->
+        <!--<Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="300"></RowDefinition>
+                <RowDefinition Height="300"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="700*"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+        </Grid>-->
+
+        <!-- FIRST COLUMN FOR MENU DASHBOARD-->
+        <StackPanel Grid.Column="0" Background="#FF1A4645">
+            <Rectangle Height="20"/>
+            <Image MaxHeight="200" Source="/Assets/Logo.png">
+
+            </Image>
+            <WrapPanel>
+                
+            </WrapPanel>
+            <Button x:Name="DashboardBtn"  Content="Dashboard" Height="50" AutomationProperties.Name="dashboardBTN" HorizontalContentAlignment="Left" Padding="20,1,1,1" Background="#FF1A4645" Foreground="White" BorderBrush="#FF2B6B6A" FontSize="15" FontFamily="Segoe UI Variable Display" FontWeight="Bold" BorderThickness="0,0,0,0" Click="DashboardBtn_Click"/>
+            <Button x:Name="EmployeeBtn" Content="Employee" Height="50" AutomationProperties.Name="employeeBTN" HorizontalContentAlignment="Left" Padding="20,1,1,1" Background="#FF1A4645" Foreground="White" BorderBrush="#FF2B6B6A" FontSize="15" FontFamily="Segoe UI Variable Display" FontWeight="Bold" BorderThickness="0,0,0,0" Click="EmployeeBtn_Click"/>
+            <!--  Subclass for EmployeeBTN -->
+            <StackPanel x:Name="employeePanel" Visibility="Collapsed">
+                <!--Visibility="Collapsed"-->
+                <Button x:Name="empaddBtn" Content="Add" Height="50" AutomationProperties.Name="dashboardBTN" Padding="40,1,1,1" HorizontalContentAlignment="Left" Background="#FF1A3C45" Foreground="White" FontFamily="Segoe UI Variable Display" FontSize="15" BorderThickness="0,0,0,0" Click="empaddBtn_Click"/>
+                <Button x:Name="empmanagedBtn" Content="Manage" Height="50" AutomationProperties.Name="dashboardBTN" Padding="40,1,1,1" HorizontalContentAlignment="Left" Background="#FF1A3C45" Foreground="White" FontFamily="Segoe UI Variable Display" FontSize="15" BorderThickness="0,0,0,0" Click="empmanagedBtn_Click"/>
+                <Button x:Name="emppayrollBtn" Content="Payroll" Height="50" AutomationProperties.Name="dashboardBTN" Padding="40,1,1,1" HorizontalContentAlignment="Left" Foreground="White" Background="#FF1A3C45" FontFamily="Segoe UI Variable Display" FontSize="15" BorderThickness="0,0,0,0" Click="emppayrollBtn_Click"/>
+                <Button x:Name="emprecordBtn" Content="Record" Height="50" AutomationProperties.Name="dashboardBTN" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="40,1,1,1" Foreground="White" Background="#FF1A3C45" FontFamily="Segoe UI Variable Display" FontSize="15" BorderThickness="0,0,0,0" Click="emprecordBtn_Click"/>
+            </StackPanel>
+            <Button x:Name="ReserveBtn" Content="Reservation" Height="50" AutomationProperties.Name="dashboardBTN" HorizontalContentAlignment="Left" Padding="20,1,1,1" Foreground="White" Background="#FF1A4645" FontFamily="Segoe UI Variable Display" FontSize="15" FontWeight="Bold" BorderThickness="0,0,0,0" Click="ReserveBtn_Click"/>
+            <!--  Subclass for reservationBTN -->
+            <StackPanel x:Name="reservePanel" Visibility="Collapsed">
+                <Button x:Name="reserveaddBtn" Content="Add" Height="50" AutomationProperties.Name="dashboardBTN" Padding="40,1,1,1" HorizontalContentAlignment="Left" Background="#FF1A3C45" Foreground="White" FontFamily="Segoe UI Variable Display" FontSize="15" BorderThickness="0,0,0,0" Click="reserveaddBtn_Click"/>
+                <Button x:Name="reservemanageBtn" Content="Manage" Height="50" AutomationProperties.Name="dashboardBTN" Padding="40,1,1,1" HorizontalContentAlignment="Left" Background="#FF1A3C45" Foreground="White" FontFamily="Segoe UI Variable Display" FontSize="15" BorderThickness="0,0,0,0" Click="reservemanageBtn_Click"/>
+            </StackPanel>
+
+        </StackPanel>
+        <Grid Grid.Column="1" Height="900" Width="900">
+            <Frame Name="Navigate_Panel" Content="Frame" NavigationUIVisibility="Hidden" Margin="0,0,0,10"/>
+            
+        </Grid>
+      
+    </Grid>
+    <!-- END -->
+
+</Window>
