@@ -16,10 +16,26 @@
         </Grid.RowDefinitions>
         <Grid Grid.Row="1" Width="800" Height="800">
             <WrapPanel Margin="50,146,47,54" Height="600" Width="700">
-                <DataGrid d:ItemsSource="{d:SampleData ItemCount=5}" Height="600" MaxHeight="600" MaxWidth="600" Width="700"/>
+                <DataGrid x:Name="employeeDataGrid"
+                          AutoGenerateColumns="True"
+                          Height="600" MaxHeight="600"
+                          MaxWidth="600" Width="700"/>
             </WrapPanel>
-            <TextBox HorizontalAlignment="Left" Margin="370,100,0,0" TextWrapping="Wrap" Text="Name / Employee no." VerticalAlignment="Top" Width="230" Height="24"/>
-            <Button Content="Search" HorizontalAlignment="Left" Margin="614,100,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.114,0.125" Height="24" Width="96" Background="#FF7DD22C" Foreground="White"/>
+            <TextBox x:Name="txtSearch"
+                     HorizontalAlignment="Left"
+                     Margin="370,100,0,0"
+                     TextWrapping="Wrap"
+                     Text="Name / Employee no."
+                     VerticalAlignment="Top"
+                     Width="230" Height="24"/>
+            <Button x:Name="btnSearch"
+                    Content="Search"
+                    Click="btnSearch_Click"
+                    HorizontalAlignment="Left"
+                    Margin="614,100,0,0"
+                    VerticalAlignment="Top"
+                    Height="24" Width="96"
+                    Background="#FF7DD22C" Foreground="White"/>
             <Label Content="Manage Attendance" HorizontalAlignment="Left" Margin="47,28,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18"/>
         </Grid>
     </Grid>

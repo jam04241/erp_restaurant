@@ -5,14 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:practice"
         mc:Ignorable="d"
-        Title="MainWindow" Height="800" Width="600"
+        Title="Login" Height="800" Width="600"
         ResizeMode="NoResize">
-    <Grid Background='#FF051821'>
+    <Grid Background="#FF051821">
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
             <RowDefinition Height="600"/>
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
+
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="50"/>
@@ -22,25 +23,32 @@
 
             <Grid x:Name="LoginForm" Grid.Column="1" Background="#FF1A4645">
                 <StackPanel>
-                    <Rectangle x:Name="PaddingHeader" Height="50"></Rectangle>
-                    <StackPanel Height="500">
+                    <Rectangle x:Name="PaddingHeader" Height="50"/>
+                    <StackPanel Height="500" VerticalAlignment="Center" HorizontalAlignment="Center">
                         <Image MaxHeight="200" Source="/Assets/Logo.png"/>
                         <Rectangle Height="50"/>
-                        <Label Content="Welcome Admin" HorizontalAlignment="Center" FontWeight="Bold" Foreground="White"/>
+                        <Label Content="Welcome" HorizontalAlignment="Center" FontWeight="Bold" Foreground="White"/>
                         <Rectangle Height="20"/>
-                        <TextBox Width="200" Height="30" BorderThickness="0,0,0,0" AutomationProperties.Name="usernameField" />
+                        <TextBox x:Name="txtEmail"
+                                 Text="Enter Username"
+                                 Width="200" Height="30"
+                                 BorderThickness="0"
+                                 Margin="0,5,0,5"/>
+                        <PasswordBox x:Name="txtPassword"
+                                     Width="200" Height="30"
+                                     Margin="0,5,0,5"/>
                         <Rectangle Height="20"/>
-                        <TextBox Width="200" Height="30" AutomationProperties.Name="passwordField"/>
-                        <Rectangle Height="20"/>
-                        <Button x:Name="LoginBtn" Width="200" Height="30" Content="Login" Background="#FF051821" Foreground="White" BorderBrush="#FF051821" Click="LoginBtn_Click"/>
+                        <Button x:Name="LoginBtn"
+                                Width="200" Height="30"
+                                Content="Login"
+                                Background="#FF051821"
+                                Foreground="White"
+                                BorderBrush="#FF051821"
+                                Click="LoginBtn_Click"/>
                     </StackPanel>
-
-                    <Rectangle x:Name="PaddingFooter" Height="50"></Rectangle>
+                    <Rectangle x:Name="PaddingFooter" Height="50"/>
                 </StackPanel>
             </Grid>
         </Grid>
-
     </Grid>
-    <!-- END -->
-
 </Window>
