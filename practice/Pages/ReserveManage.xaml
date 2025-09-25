@@ -9,35 +9,63 @@
       Title="ReserveManage">
 
     <Grid Background="#FF051821">
-        <Label Content="Manage Customer Reservation" HorizontalAlignment="Left" Margin="52,83,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18" Width="262"/>
-        <TextBox HorizontalAlignment="Left" Margin="68,209,0,0" TextWrapping="Wrap" Text="Name / Employee no." VerticalAlignment="Top" Width="230" Height="24"/>
-        <Button Content="Search" HorizontalAlignment="Left" Margin="312,209,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.114,0.125" Height="24" Width="96" Background="#FF7DD22C" Foreground="White"/>
-        <StackPanel Background="#FF1A4645" Margin="52,268,366,130">
-            <Rectangle Height="50"></Rectangle>
-            <StackPanel Background="Wheat" Height="100" Width="350" HorizontalAlignment="Center">
-                <Button HorizontalAlignment="Right" VerticalAlignment="Bottom" Foreground="White" Background="#FFCA0B0B">Cancel</Button>
+        <TextBox HorizontalAlignment="Left" Margin="42,30,0,0" TextWrapping="Wrap" Text="Name / Employee no." VerticalAlignment="Top" Width="230" Height="24"/>
+        <StackPanel Background="#FF1A4645" Margin="42,86,376,312">
+            <Rectangle Height="50"/>
+            <StackPanel Background="#FF328C86" Height="100" Width="350" HorizontalAlignment="Center">
+                <Button HorizontalAlignment="Right" VerticalAlignment="Bottom" Foreground="White" Background="#FFCA0B0B" Content="Cancel"/>
             </StackPanel>
-            <Rectangle Height="50"></Rectangle>
-            <StackPanel Background="Wheat" Height="100" Width="350" HorizontalAlignment="Center">
-                <Button HorizontalAlignment="Right" VerticalAlignment="Bottom" Foreground="White" Background="#FFCA0B0B">Cancel</Button>
+            <Rectangle Height="50"/>
+            <StackPanel Background="#FF328C86" Height="100" Width="350" HorizontalAlignment="Center">
+                <Button HorizontalAlignment="Right" VerticalAlignment="Bottom" Foreground="White" Background="#FFCA0B0B" Content="Cancel"/>
             </StackPanel>
-            <Rectangle Height="50"></Rectangle>
-            <StackPanel Background="Wheat" Height="100" Width="350" HorizontalAlignment="Center">
-                <Button HorizontalAlignment="Right" VerticalAlignment="Bottom" Foreground="White" Background="#FFCA0B0B">Cancel</Button>
+            <Rectangle Height="50"/>
+            <StackPanel Background="#FF328C86" Height="100" Width="350" HorizontalAlignment="Center">
+                <Button HorizontalAlignment="Right" VerticalAlignment="Bottom" Foreground="White" Background="#FFCA0B0B" Content="Cancel"/>
             </StackPanel>
-            <Rectangle Height="50"></Rectangle>
+            <Rectangle Height="50"/>
         </StackPanel>
-        <Grid Width="300" Margin="568,268,32,400" Background="#FF1A4645">
-            <Label Content="20/50" HorizontalAlignment="Left" Margin="89,57,0,0" VerticalAlignment="Top" Foreground="White" FontSize="50" Width="143" Height="82"/>
+        <Grid Width="300" Margin="558,146,42,638" Background="#FF1A4645">
+            <Label Content="20/50" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="50" Width="144" Height="82"/>
 
         </Grid>
-        <Grid Width="300" Margin="568,578,32,130" Background="#FF1A4645">
-            <Label Content="UPCOMING  10:00AM - 12:00PM" HorizontalAlignment="Center" Margin="0,17,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18" Width="268" Height="41"/>
-            <Label Content="UPCOMING  10:00AM - 12:00PM" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="18" Width="268" Height="40"/>
-            <Label Content="UPCOMING  10:00AM - 12:00PM" HorizontalAlignment="Center" Margin="0,132,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18" Width="268" Height="41"/>
+        <Grid Width="300" Margin="558,338,42,312" Background="#FF1A4645">
+            <WrapPanel Height="41" Width="268" Margin="16,74,16,135" Background="#FF328C86">
+                <TextBlock Width="20"/>
+                <Label Content="Harold Lubot" FontSize="14" Foreground="White" Margin="0,5,0,0" />
+                <TextBlock Width="20"/>
+                <Button Background="#FF7DD22C" Content="Confirm Reservation" Margin="0,5,0,0"/>
+            </WrapPanel>
+            <WrapPanel Height="41" Width="268" Margin="16,19,16,190" Background="#FF328C86">
+                <TextBlock Width="20"/>
+                <Label Content="Harold Lubot" FontSize="14" Foreground="White" Margin="0,5,0,0" />
+                <TextBlock Width="20"/>
+                <Button Background="#FF7DD22C" Content="Confirm Reservation" Margin="0,5,0,0"/>
+            </WrapPanel>
+            <WrapPanel Height="41" Width="268" Margin="16,132,16,77" Background="#FF328C86">
+                <TextBlock Width="20"/>
+                <Label Content="Harold Lubot" FontSize="14" Foreground="White" Margin="0,5,0,0" />
+                <TextBlock Width="20"/>
+                <Button Background="#FF7DD22C" Content="Confirm Reservation" Margin="0,5,0,0"/>
+            </WrapPanel>
+            <WrapPanel Height="41" Width="268" Margin="16,189,16,20" Background="#FF328C86">
+                <TextBlock Width="20"/>
+                <Label Content="Harold Lubot" FontSize="14" Foreground="White" Margin="0,5,0,0" />
+                <TextBlock Width="20"/>
+                <Button Background="#FF7DD22C" Content="Confirm Reservation" Margin="0,5,0,0"/>
+            </WrapPanel>
 
         </Grid>
-        <Label Content="Remaining Table" HorizontalAlignment="Left" Margin="568,209,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18" Width="141"/>
-        <Label Content="Upcoming Reservation" HorizontalAlignment="Left" Margin="577,519,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18" Width="190"/>
+        <Label Content="Available tables with Chair" HorizontalAlignment="Left" Margin="558,88,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18" Width="223"/>
+        <Label Content="Upcoming Reservation" HorizontalAlignment="Left" Margin="557,282,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18" Width="190"/>
+        <StackPanel Height="200" Margin="42,666,42,34" Background="#FF1A4645">
+            <DataGrid Height="100" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="20,15,20,15"/>
+
+        </StackPanel>
+        <ComboBox Margin="304,620,500,256"/>
+        <TextBox HorizontalAlignment="Left" Margin="42,619,0,0" TextWrapping="Wrap" Text="Name / Employee no." VerticalAlignment="Top" Width="230" Height="24"/>
+        <Button Content="Add Table" HorizontalAlignment="Left" Margin="428,619,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.114,0.125" Height="24" Width="96" Background="#FF7DD22C" Foreground="White"/>
+        <Button Content="Add Table" HorizontalAlignment="Left" Margin="428,30,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.114,0.125" Height="24" Width="96" Background="#FF7DD22C" Foreground="White"/>
+        <ComboBox Margin="304,30,500,846"/>
     </Grid>
 </Page>

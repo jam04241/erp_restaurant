@@ -82,6 +82,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\EmpAttendanceRecord.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\EmpCreateAttendance.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Pages\EmpManage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -94,9 +102,21 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\ReservationList.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\ReservationRecord.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Pages\ReserveAdd.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\ReserveCreateTable.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\ReserveManage.xaml">
       <SubType>Designer</SubType>
@@ -110,6 +130,12 @@
     <Compile Include="Pages\EmpAdd.xaml.cs">
       <DependentUpon>EmpAdd.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\EmpAttendanceRecord.xaml.cs">
+      <DependentUpon>EmpAttendanceRecord.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\EmpCreateAttendance.xaml.cs">
+      <DependentUpon>EmpCreateAttendance.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\EmpManage.xaml.cs">
       <DependentUpon>EmpManage.xaml</DependentUpon>
     </Compile>
@@ -119,8 +145,17 @@
     <Compile Include="Pages\EmpRecord.xaml.cs">
       <DependentUpon>EmpRecord.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\ReservationList.xaml.cs">
+      <DependentUpon>ReservationList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ReservationRecord.xaml.cs">
+      <DependentUpon>ReservationRecord.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\ReserveAdd.xaml.cs">
       <DependentUpon>ReserveAdd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ReserveCreateTable.xaml.cs">
+      <DependentUpon>ReserveCreateTable.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\ReserveManage.xaml.cs">
       <DependentUpon>ReserveManage.xaml</DependentUpon>

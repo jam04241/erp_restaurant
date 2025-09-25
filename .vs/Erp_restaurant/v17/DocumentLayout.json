@@ -1,7 +1,36 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "J:\\admin\\Documents\\Andrei_Property\\College\\3rd Year\\1st Sem\\1st term\\IT13L(2818)\\PROJECTS\\practice\\",
-  "Documents": [],
+  "WorkspaceRootPath": "J:\\admin\\Documents\\Andrei_Property\\College\\3rd Year\\1st Sem\\1st term\\IT13L(2818)\\PROJECTS\\erp_restaurant\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D43C227-85B5-4965-B341-72B7EDA14829}|practice\\Erp_restaurant.csproj|j:\\admin\\documents\\andrei_property\\college\\3rd year\\1st sem\\1st term\\it13l(2818)\\projects\\erp_restaurant\\practice\\pages\\reservemanage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D43C227-85B5-4965-B341-72B7EDA14829}|practice\\Erp_restaurant.csproj|solutionrelative:practice\\pages\\reservemanage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D43C227-85B5-4965-B341-72B7EDA14829}|practice\\Erp_restaurant.csproj|j:\\admin\\documents\\andrei_property\\college\\3rd year\\1st sem\\1st term\\it13l(2818)\\projects\\erp_restaurant\\practice\\pages\\reserveadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D43C227-85B5-4965-B341-72B7EDA14829}|practice\\Erp_restaurant.csproj|solutionrelative:practice\\pages\\reserveadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D43C227-85B5-4965-B341-72B7EDA14829}|practice\\Erp_restaurant.csproj|j:\\admin\\documents\\andrei_property\\college\\3rd year\\1st sem\\1st term\\it13l(2818)\\projects\\erp_restaurant\\practice\\pages\\emprecord.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D43C227-85B5-4965-B341-72B7EDA14829}|practice\\Erp_restaurant.csproj|solutionrelative:practice\\pages\\emprecord.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D43C227-85B5-4965-B341-72B7EDA14829}|practice\\Erp_restaurant.csproj|j:\\admin\\documents\\andrei_property\\college\\3rd year\\1st sem\\1st term\\it13l(2818)\\projects\\erp_restaurant\\practice\\pages\\emppayroll.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D43C227-85B5-4965-B341-72B7EDA14829}|practice\\Erp_restaurant.csproj|solutionrelative:practice\\pages\\emppayroll.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D43C227-85B5-4965-B341-72B7EDA14829}|practice\\Erp_restaurant.csproj|j:\\admin\\documents\\andrei_property\\college\\3rd year\\1st sem\\1st term\\it13l(2818)\\projects\\erp_restaurant\\practice\\pages\\empmanage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D43C227-85B5-4965-B341-72B7EDA14829}|practice\\Erp_restaurant.csproj|solutionrelative:practice\\pages\\empmanage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D43C227-85B5-4965-B341-72B7EDA14829}|practice\\Erp_restaurant.csproj|j:\\admin\\documents\\andrei_property\\college\\3rd year\\1st sem\\1st term\\it13l(2818)\\projects\\erp_restaurant\\practice\\pages\\empadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D43C227-85B5-4965-B341-72B7EDA14829}|practice\\Erp_restaurant.csproj|solutionrelative:practice\\pages\\empadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D43C227-85B5-4965-B341-72B7EDA14829}|practice\\Erp_restaurant.csproj|j:\\admin\\documents\\andrei_property\\college\\3rd year\\1st sem\\1st term\\it13l(2818)\\projects\\erp_restaurant\\practice\\pages\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D43C227-85B5-4965-B341-72B7EDA14829}|practice\\Erp_restaurant.csproj|solutionrelative:practice\\pages\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +38,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -21,11 +54,91 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReserveManage.xaml",
+              "DocumentMoniker": "J:\\admin\\Documents\\Andrei_Property\\College\\3rd Year\\1st Sem\\1st term\\IT13L(2818)\\PROJECTS\\erp_restaurant\\practice\\Pages\\ReserveManage.xaml",
+              "RelativeDocumentMoniker": "practice\\Pages\\ReserveManage.xaml",
+              "ToolTip": "J:\\admin\\Documents\\Andrei_Property\\College\\3rd Year\\1st Sem\\1st term\\IT13L(2818)\\PROJECTS\\erp_restaurant\\practice\\Pages\\ReserveManage.xaml",
+              "RelativeToolTip": "practice\\Pages\\ReserveManage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-25T18:31:45.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReserveAdd.xaml",
+              "DocumentMoniker": "J:\\admin\\Documents\\Andrei_Property\\College\\3rd Year\\1st Sem\\1st term\\IT13L(2818)\\PROJECTS\\erp_restaurant\\practice\\Pages\\ReserveAdd.xaml",
+              "RelativeDocumentMoniker": "practice\\Pages\\ReserveAdd.xaml",
+              "ToolTip": "J:\\admin\\Documents\\Andrei_Property\\College\\3rd Year\\1st Sem\\1st term\\IT13L(2818)\\PROJECTS\\erp_restaurant\\practice\\Pages\\ReserveAdd.xaml",
+              "RelativeToolTip": "practice\\Pages\\ReserveAdd.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-25T18:31:44.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmpRecord.xaml",
+              "DocumentMoniker": "J:\\admin\\Documents\\Andrei_Property\\College\\3rd Year\\1st Sem\\1st term\\IT13L(2818)\\PROJECTS\\erp_restaurant\\practice\\Pages\\EmpRecord.xaml",
+              "RelativeDocumentMoniker": "practice\\Pages\\EmpRecord.xaml",
+              "ToolTip": "J:\\admin\\Documents\\Andrei_Property\\College\\3rd Year\\1st Sem\\1st term\\IT13L(2818)\\PROJECTS\\erp_restaurant\\practice\\Pages\\EmpRecord.xaml",
+              "RelativeToolTip": "practice\\Pages\\EmpRecord.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-25T18:31:43.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmpPayroll.xaml",
+              "DocumentMoniker": "J:\\admin\\Documents\\Andrei_Property\\College\\3rd Year\\1st Sem\\1st term\\IT13L(2818)\\PROJECTS\\erp_restaurant\\practice\\Pages\\EmpPayroll.xaml",
+              "RelativeDocumentMoniker": "practice\\Pages\\EmpPayroll.xaml",
+              "ToolTip": "J:\\admin\\Documents\\Andrei_Property\\College\\3rd Year\\1st Sem\\1st term\\IT13L(2818)\\PROJECTS\\erp_restaurant\\practice\\Pages\\EmpPayroll.xaml",
+              "RelativeToolTip": "practice\\Pages\\EmpPayroll.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-25T18:31:41.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmpManage.xaml",
+              "DocumentMoniker": "J:\\admin\\Documents\\Andrei_Property\\College\\3rd Year\\1st Sem\\1st term\\IT13L(2818)\\PROJECTS\\erp_restaurant\\practice\\Pages\\EmpManage.xaml",
+              "RelativeDocumentMoniker": "practice\\Pages\\EmpManage.xaml",
+              "ToolTip": "J:\\admin\\Documents\\Andrei_Property\\College\\3rd Year\\1st Sem\\1st term\\IT13L(2818)\\PROJECTS\\erp_restaurant\\practice\\Pages\\EmpManage.xaml",
+              "RelativeToolTip": "practice\\Pages\\EmpManage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-25T18:31:40.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmpAdd.xaml",
+              "DocumentMoniker": "J:\\admin\\Documents\\Andrei_Property\\College\\3rd Year\\1st Sem\\1st term\\IT13L(2818)\\PROJECTS\\erp_restaurant\\practice\\Pages\\EmpAdd.xaml",
+              "RelativeDocumentMoniker": "practice\\Pages\\EmpAdd.xaml",
+              "ToolTip": "J:\\admin\\Documents\\Andrei_Property\\College\\3rd Year\\1st Sem\\1st term\\IT13L(2818)\\PROJECTS\\erp_restaurant\\practice\\Pages\\EmpAdd.xaml",
+              "RelativeToolTip": "practice\\Pages\\EmpAdd.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-25T18:31:38.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dashboard.xaml",
+              "DocumentMoniker": "J:\\admin\\Documents\\Andrei_Property\\College\\3rd Year\\1st Sem\\1st term\\IT13L(2818)\\PROJECTS\\erp_restaurant\\practice\\Pages\\Dashboard.xaml",
+              "RelativeDocumentMoniker": "practice\\Pages\\Dashboard.xaml",
+              "ToolTip": "J:\\admin\\Documents\\Andrei_Property\\College\\3rd Year\\1st Sem\\1st term\\IT13L(2818)\\PROJECTS\\erp_restaurant\\practice\\Pages\\Dashboard.xaml",
+              "RelativeToolTip": "practice\\Pages\\Dashboard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-25T18:31:32.554Z",
+              "EditorCaption": ""
             }
           ]
         }
