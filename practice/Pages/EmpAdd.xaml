@@ -20,45 +20,42 @@
             </Grid.RowDefinitions>
             <Grid Grid.Row="0" Background="#FF051821"/>
             <Grid Grid.Row="1">
-                <Grid Background="#FF1A4645" Width="800">
-                    <Label Content="Add Employee" FontSize="18" FontWeight="Bold" Foreground="White" Margin="30,46,620,612"/>
-                    <Label Content="First Name" FontSize="15" FontWeight="Bold" Foreground="White" Margin="30,128,640,539"/>
-                    <Label Content="Middle Name" FontSize="15" FontWeight="Bold" Foreground="White" Margin="290,128,380,539" RenderTransformOrigin="0.519,1.121"/>
-                    <Label Content="Last Name" FontSize="15" FontWeight="Bold" Foreground="White" Margin="550,128,120,539" RenderTransformOrigin="0.519,1.121"/>
-                    <Label Content="Contact no." FontSize="15" FontWeight="Bold" Foreground="White" Margin="30,213,640,454" RenderTransformOrigin="0.519,1.121"/>
-                    <Label Content="Status" FontSize="15" FontWeight="Bold" Foreground="White" Margin="290,213,380,454" RenderTransformOrigin="0.519,1.121"/>
-                    <Label Content="Sex" FontSize="15" FontWeight="Bold" Foreground="White" Margin="550,213,207,454" RenderTransformOrigin="0.519,1.121"/>
-                    <Label Content="City / Province" FontSize="15" FontWeight="Bold" Foreground="White" Margin="30,309,640,358" RenderTransformOrigin="0.519,1.121"/>
-                    <Label Content="Barangay" FontSize="15" FontWeight="Bold" Foreground="White" Margin="216,309,454,358" RenderTransformOrigin="0.519,1.121"/>
-                    <Label Content="Street" FontSize="15" FontWeight="Bold" Foreground="White" Margin="400,309,270,358" RenderTransformOrigin="0.519,1.121"/>
-                    <Label Content="Email" FontSize="15" FontWeight="Bold" Foreground="White" Margin="30,402,640,265" RenderTransformOrigin="0.519,1.121"/>
-                    <Label Content="Password" FontSize="15" FontWeight="Bold" Foreground="White" Margin="290,402,380,265" RenderTransformOrigin="0.519,1.121"/>
+                <Grid Background="#FF1A4645" Width="800" Margin="50,65,50,65">
+                    <Label Content="Add Employee" FontSize="18" FontWeight="Bold" Foreground="White" Margin="30,46,620,482"/>
+                    <Label Content="First Name" FontSize="15" FontWeight="Bold" Foreground="White" Margin="30,128,640,409" FontFamily="Arial"/>
+                    <Label Content="Middle Name" FontSize="15" FontWeight="Bold" Foreground="White" Margin="290,128,380,409" RenderTransformOrigin="0.519,1.121" FontFamily="Arial"/>
+                    <Label Content="Last Name" FontSize="15" FontWeight="Bold" Foreground="White" Margin="550,128,120,409" RenderTransformOrigin="0.519,1.121" FontFamily="Arial"/>
+                    <Label Content="Contact no." FontSize="15" FontWeight="Bold" Foreground="White" Margin="30,213,640,324" RenderTransformOrigin="0.519,1.121" FontFamily="Arial"/>
+                    <Label Content="Status" FontSize="15" FontWeight="Bold" Foreground="White" Margin="550,213,176,324" RenderTransformOrigin="0.519,1.121" FontFamily="Arial"/>
+                    <Label Content="Sex" FontSize="15" FontWeight="Bold" Foreground="White" Margin="705,217,52,320" RenderTransformOrigin="0.519,1.121" FontFamily="Arial"/>
+                    <Label Content="City / Province" FontSize="15" FontWeight="Bold" Foreground="White" Margin="30,309,640,228" RenderTransformOrigin="0.519,1.121" FontFamily="Arial"/>
+                    <Label Content="Barangay" FontSize="15" FontWeight="Bold" Foreground="White" Margin="216,309,454,228" RenderTransformOrigin="0.519,1.121" FontFamily="Arial"/>
+                    <Label Content="Street" FontSize="15" FontWeight="Bold" Foreground="White" Margin="400,309,270,228" RenderTransformOrigin="0.519,1.121" FontFamily="Arial"/>
+                    <Label Content="Email" FontSize="15" FontWeight="Bold" Foreground="White" Margin="290,212,380,325" RenderTransformOrigin="0.519,1.121" FontFamily="Arial"/>
 
-                    <TextBox x:Name="firstnameField" Height="30" Width="220" Margin="30,166,550,504"/>
-                    <TextBox x:Name="middlenameField" Height="30" Width="220" Margin="290,166,290,504"/>
-                    <TextBox x:Name="lastnameField" Height="30" Width="220" Margin="550,166,30,504"/>
-                    <TextBox x:Name="contactField" Height="30" Width="220" Margin="30,251,550,419"/>
-                    <ComboBox x:Name="statusComboBox" Height="30" Width="220" Margin="290,251,290,419">
+                    <TextBox x:Name="firstnameField" Height="30" Width="220" Margin="30,166,550,374"/>
+                    <TextBox x:Name="middlenameField" Height="30" Width="220" Margin="290,166,290,374"/>
+                    <TextBox x:Name="lastnameField" Height="30" Width="220" Margin="550,166,30,374"/>
+                    <TextBox x:Name="contactField" Height="30" Width="220" Margin="30,251,550,289"/>
+                    <ComboBox x:Name="statusComboBox" Height="30" Margin="550,251,125,289">
                         <ComboBoxItem x:Name="single" Content="Single"/>
                         <ComboBoxItem x:Name="married" Content="Married"/>
                         <ComboBoxItem x:Name="widowed" Content="Widowed"/>
                         <ComboBoxItem x:Name="complicated" Content="Complicated"/>
                         <ComboBoxItem x:Name="othersStatus" Content="Others"/>
                     </ComboBox>
-                    <ComboBox x:Name="sexComboBox" Height="30" Margin="550,251,185,419" >
+                    <ComboBox x:Name="sexComboBox" Height="30" Margin="705,250,30,290" >
                         <ComboBoxItem x:Name="male" Content="Male"/>
                         <ComboBoxItem x:Name="female" Content="Female"/>
                     </ComboBox>
-                    <TextBox x:Name="cityprovinceField" Height="30" Margin="30,347,620,323"/>
-                    <TextBox x:Name="brgyField" Height="30" Margin="216,347,434,323"/>
-                    <TextBox x:Name="streetField" Height="30" Margin="400,347,30,323"/>
-                    <TextBox x:Name="emailField" Height="30" Width="220" Margin="30,440,550,230"/>
-                    <PasswordBox x:Name="passwordField" Height="30" Margin="290,440,290,230" PasswordChar="*"/>
-                    <Button Content="Add" HorizontalAlignment="Left" Margin="640,523,0,0" VerticalAlignment="Top" Height="38" Width="130" Background="#FF7DD22C" Foreground="White"/>
-
+                    <TextBox x:Name="cityprovinceField" Height="30" Margin="30,347,620,193"/>
+                    <TextBox x:Name="brgyField" Height="30" Margin="216,347,434,193"/>
+                    <TextBox x:Name="streetField" Height="30" Margin="400,347,30,193"/>
+                    <TextBox x:Name="emailField" Height="30" Width="220" Margin="290,250,290,290"/>
+                    <Button Content="Create Employee" HorizontalAlignment="Left" Margin="640,414,0,0" VerticalAlignment="Top" Height="38" Width="130" Background="#FF55901D" Foreground="White" FontSize="14"/>
                 </Grid>
             </Grid>
-            <Grid Grid.Row="2" Background="#FF051821"/>
+            <Grid Grid.Row="2" Background="#FF051821" Height="100" VerticalAlignment="Bottom"/>
         </Grid>
 
     </Grid>
